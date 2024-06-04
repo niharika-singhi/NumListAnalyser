@@ -132,7 +132,7 @@ fun TextFieldInput(
         onValueChange = onValueChange,
         label = { Text(label) },
         modifier = modifier,
-        keyboardOptions = KeyboardOptions(keyboardType = keyboardType) // Set keyboard options
+        keyboardOptions = KeyboardOptions(keyboardType = keyboardType)
     )
 }
 
